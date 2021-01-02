@@ -27,15 +27,15 @@ function Sidebar() {
       <SidebarOption
         Icon={InboxIcon}
         title='Inbox'
-        number={54}
+        number={2}
         selected={true}
       />
-      <SidebarOption Icon={StarIcon} title='Starred' number={54} />
-      <SidebarOption Icon={AccessTimeIcon} title='Snoozed' number={54} />
-      <SidebarOption Icon={LabelImportantIcon} title='Important' number={54} />
-      <SidebarOption Icon={NearMeIcon} title='Sent' number={54} />
-      <SidebarOption Icon={NoteIcon} title='Draft' number={54} />
-      <SidebarOption Icon={ExpandMoreIcon} title='More' number={54} />
+      <SidebarOption Icon={StarIcon} title='Starred' number={2} />
+      <SidebarOption Icon={AccessTimeIcon} title='Snoozed' number={2} />
+      <SidebarOption Icon={LabelImportantIcon} title='Important' number={2} />
+      <SidebarOption Icon={NearMeIcon} title='Sent' number={2} />
+      <SidebarOption Icon={NoteIcon} title='Draft' number={2} />
+      <SidebarOption Icon={ExpandMoreIcon} title='More' number={2} />
 
       <div className='sidebar-footer'>
         <div className='sidebar-footerIcons'>
